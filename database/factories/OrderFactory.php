@@ -21,7 +21,7 @@ class OrderFactory extends Factory
             "full_name"=>$this->faker->name,
             "grand_total" => 0,
             "status" => random_int(0,5),
-            "user_id"=> random_int(1,50),
+            "user_id"=> random_int(2,50),
             "tel"=>$this->faker->phoneNumber,
             "address"=>$this->faker->address,
             "shipping_method"=>"Express",
